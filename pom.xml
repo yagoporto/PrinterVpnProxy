@@ -13,4 +13,37 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <!-- Para comunicação via sockets -->
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+            <version>3.11.1</version>
+        </dependency>
+        <!-- Para logs e debugging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.7</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.11</version>
+        </dependency>
+
+        <!-- Para manipulação de JSON (caso precise salvar configs dinâmicas) -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.16.0</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
 </project>
