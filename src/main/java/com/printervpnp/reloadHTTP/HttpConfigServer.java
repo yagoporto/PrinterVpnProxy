@@ -94,77 +94,58 @@ public class HttpConfigServer {
     
         @Override
         public void handle(HttpExchange exchange) throws IOException {
-            String method = exchange.getRequestMethod();
-            String path = exchange.getRequestURI().getPath();
+            if ("POST".equalsIgnoreCase(exchange.getRequestMethod())) {
+                // 📌 Lendo o corpo da requisição corretamente
+                String body = new String(exchange.getRequestBody().readAllBytes());
+                Logger.log("Corpo recebido: " + body);
     
-            if (method.equals("GET")) {
-                handleGetPrinters(exchange);
-            } else if (method.equals("POST")) {
-                handlePostPrinter(exchange);
-            } else if (method.equals("PUT")) {
-                handlePutPrinter(exchange);
-            } else if (method.equals("DELETE")) {
-                handleDeletePrinter(exchange);
+                // 🔹 Convertendo parâmetros para um Map
+                Map<String, String> params = parseFormData(body);
+                
+                // 🔍 Debug: Exibir parâmetros extraídos
+                Logger.log("Parâmetros extraídos: " + params);
+    
+                String vpnIp = params.get("vpnIp");
+                String localIp = params.get("localIp");
+                String portStr = params.get("port");
+    
+                if (vpnIp == null || localIp == null || portStr == null) {
+                    String response = "Dados inválidos! Certifique-se de enviar vpnIp, localIp e port.";
+                    exchange.sendResponseHeaders(400, response.length());
+                    exchange.getResponseBody().write(response.getBytes());
+                    exchange.getResponseBody().close();
+                    return;
+                }
+    
+                int port;
+                try {
+                    port = Integer.parseInt(portStr);
+                } catch (NumberFormatException e) {
+                    String response = "Porta inválida!";
+                    exchange.sendResponseHeaders(400, response.length());
+                    exchange.getResponseBody().write(response.getBytes());
+                    exchange.getResponseBody().close();
+                    return;
+                }
+    
+                // Adiciona impressora ao ConfigManager
+                configManager.addPrinter(vpnIp, localIp, port);
+    
+                String response = "Impressora adicionada com sucesso!";
+                exchange.sendResponseHeaders(200, response.length());
+                exchange.getResponseBody().write(response.getBytes());
+                exchange.getResponseBody().close();
             } else {
-                sendResponse(exchange, 405, "Método não permitido");
+                exchange.sendResponseHeaders(405, -1); // Método não permitido
             }
         }
     
-        private void handleGetPrinters(HttpExchange exchange) throws IOException {
-            String response = configManager.getAllPrinters();
-            sendResponse(exchange, 200, response);
-        }
-    
-        private void handlePostPrinter(HttpExchange exchange) throws IOException {
-            String body = new String(exchange.getRequestBody().readAllBytes());
-            Map<String, String> params = parseFormData(body);
-    
-            String vpnIp = params.get("vpnIp");
-            String localIp = params.get("localIp");
-            String port = params.get("port");
-    
-            if (vpnIp != null && localIp != null && port != null) {
-                configManager.addPrinter(vpnIp, localIp, Integer.parseInt(port));
-                sendResponse(exchange, 201, "Impressora adicionada com sucesso!");
-            } else {
-                sendResponse(exchange, 400, "Dados inválidos");
-            }
-        }
-    
-        private void handlePutPrinter(HttpExchange exchange) throws IOException {
-            String vpnIp = exchange.getRequestURI().getPath().split("/")[2];
-            String body = new String(exchange.getRequestBody().readAllBytes());
-            Map<String, String> params = parseFormData(body);
-    
-            if (configManager.updatePrinter(vpnIp, params.get("localIp"), Integer.parseInt(params.get("port")))) {
-                sendResponse(exchange, 200, "Impressora atualizada com sucesso!");
-            } else {
-                sendResponse(exchange, 404, "Impressora não encontrada!");
-            }
-        }
-    
-        private void handleDeletePrinter(HttpExchange exchange) throws IOException {
-            String vpnIp = exchange.getRequestURI().getPath().split("/")[2];
-    
-            if (configManager.removePrinter(vpnIp)) {
-                sendResponse(exchange, 200, "Impressora removida com sucesso!");
-            } else {
-                sendResponse(exchange, 404, "Impressora não encontrada!");
-            }
-        }
-    
-        private void sendResponse(HttpExchange exchange, int statusCode, String response) throws IOException {
-            exchange.sendResponseHeaders(statusCode, response.length());
-            OutputStream os = exchange.getResponseBody();
-            os.write(response.getBytes());
-            os.close();
-        }
-    
-        private Map<String, String> parseFormData(String body) {
-            return body.lines()
-                    .map(line -> line.split("=", 2))
-                    .filter(parts -> parts.length == 2)
-                    .collect(Collectors.toMap(parts -> parts[0], parts -> parts[1]));
+        // Método para converter dados do Form-Encode para um Map
+        private Map<String, String> parseFormData(String formData) {
+            return Arrays.stream(formData.split("&"))
+                    .map(param -> param.split("="))
+                    .filter(pair -> pair.length == 2)
+                    .collect(Collectors.toMap(pair -> pair[0], pair -> pair[1]));
         }
     }
 }

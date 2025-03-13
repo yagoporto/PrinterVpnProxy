@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Impressoras</title>
+    <script>
+        async function adicionarImpressora() {
+            const vpnIp = document.getElementById("vpnIp").value;
+            const localIp = document.getElementById("localIp").value;
+            const port = document.getElementById("port").value;
+            const token = document.getElementById("adminToken").value;
+            
+            const response = await fetch(`http://localhost:9000/printers?vpnIp=${vpnIp}&localIp=${localIp}&port=${port}`, {
+                method: "POST",
+                headers: { "Authorization": token }
+            });
+            
+            const result = await response.text();
+            alert(result);
+        }
+    </script>
+</head>
+<body>
+    <h2>Adicionar Impressora</h2>
+    <label>VPN IP:</label> <input type="text" id="vpnIp"><br>
+    <label>Local IP:</label> <input type="text" id="localIp"><br>
+    <label>Porta:</label> <input type="text" id="port"><br>
+    <label>Token Admin:</label> <input type="password" id="adminToken"><br>
+    <button onclick="adicionarImpressora()">Adicionar</button>
+</body>
+</html>

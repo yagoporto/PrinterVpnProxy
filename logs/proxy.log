@@ -158,3 +158,42 @@
 [2025-03-13 16:30:57] ? Configurações carregadas com sucesso!
 [2025-03-13 16:30:57] Servidor iniciado na porta 9100
 [2025-03-13 16:30:57] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 17:21:47] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 17:21:48] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 17:21:48] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 17:21:48] ? Config: admin.token = 123456
+[2025-03-13 17:21:48] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 17:21:48] ? Config: printer.1.port = 9100
+[2025-03-13 17:21:48] ? Config: printer.2.port = 9100
+[2025-03-13 17:21:48] ? Config: vpn.port = 9100
+[2025-03-13 17:21:48] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 17:21:48] ? Configurações carregadas com sucesso!
+[2025-03-13 17:21:48] Servidor iniciado na porta 9100
+[2025-03-13 17:21:48] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 17:26:44] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 17:26:44] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 17:26:44] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 17:26:44] ? Config: admin.token = 123456
+[2025-03-13 17:26:44] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 17:26:44] ? Config: printer.1.port = 9100
+[2025-03-13 17:26:44] ? Config: printer.2.port = 9100
+[2025-03-13 17:26:44] ? Config: vpn.port = 9100
+[2025-03-13 17:26:44] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 17:26:44] ? Configurações carregadas com sucesso!
+[2025-03-13 17:26:44] Servidor iniciado na porta 9100
+[2025-03-13 17:26:44] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 17:26:46] Corpo recebido: vpnIp=10.0.0.0&localIp=192.168.1.102&port=9100
+[2025-03-13 17:26:46] Parâmetros extraídos: {port=9100, vpnIp=10.0.0.0, localIp=192.168.1.102}
+[2025-03-13 17:26:46] Nova impressora adicionada: 10.0.0.0 -> 192.168.1.102
+[2025-03-13 17:33:26] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 17:33:26] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 17:33:26] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 17:33:26] ? Config: admin.token = 123456
+[2025-03-13 17:33:26] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 17:33:26] ? Config: printer.1.port = 9100
+[2025-03-13 17:33:26] ? Config: printer.2.port = 9100
+[2025-03-13 17:33:26] ? Config: vpn.port = 9100
+[2025-03-13 17:33:26] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 17:33:26] ? Configurações carregadas com sucesso!
+[2025-03-13 17:33:26] Servidor iniciado na porta 9100
+[2025-03-13 17:33:27] Servidor HTTP de configuração iniciado na porta 9000
