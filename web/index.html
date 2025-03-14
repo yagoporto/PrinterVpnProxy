@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Impressoras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+            text-align: left;
+        }
+        input {
+            width: calc(100% - 16px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            display: block;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        button:hover {
+            background: #218838;
+        }
+    </style>
+    <script>
+        async function adicionarImpressora() {
+            const vpnIp = document.getElementById("vpnIp").value.trim();
+            const localIp = document.getElementById("localIp").value.trim();
+            const port = document.getElementById("port").value.trim();
+            const token = document.getElementById("adminToken").value.trim();
+
+            if (!vpnIp || !localIp || !port || !token) {
+                alert("Todos os campos são obrigatórios!");
+                return;
+            }
+
+            // Garantir que a porta seja um número válido
+            const portNumber = parseInt(port);
+            if (isNaN(portNumber)) {
+                alert("A porta deve ser um número válido!");
+                return;
+            }
+
+            const requestBody = {
+                vpnIp: vpnIp,
+                localIp: localIp,
+                port: portNumber // Garantir que a porta seja um número
+            };
+
+            console.log("📡 Enviando requisição:", requestBody);
+
+            try {
+                const response = await fetch("http://localhost:9010/printers", {
+                    method: "POST",
+                    headers: {
+                        "Authorization": token,
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(requestBody)
+                });
+
+                console.log("📥 Resposta recebida:", response);
+
+                if (!response.ok) {
+                    const errorMessage = await response.text();
+                    throw new Error(`Erro ${response.status}: ${errorMessage}`);
+                }
+
+                const result = await response.text();
+                alert("✅ Impressora adicionada com sucesso!\n" + result);
+            } catch (error) {
+                console.error("❌ Erro na requisição:", error);
+                alert("Erro ao adicionar impressora: " + error.message);
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Adicionar Impressora</h2>
+        <label for="vpnIp">VPN IP:</label>
+        <input type="text" id="vpnIp" placeholder="Digite o IP VPN">
+        <label for="localIp">Local IP:</label>
+        <input type="text" id="localIp" placeholder="Digite o IP Local">
+        <label for="port">Porta:</label>
+        <input type="text" id="port" placeholder="Digite a Porta">
+        <label for="adminToken">Token Admin:</label>
+        <input type="password" id="adminToken" placeholder="Digite o Token">
+        <button onclick="adicionarImpressora()">Adicionar</button>
+    </div>
+</body>
+</html>

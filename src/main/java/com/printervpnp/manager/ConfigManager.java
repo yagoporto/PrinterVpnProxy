@@ -3,6 +3,7 @@ package com.printervpnp.manager;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 import java.util.HashMap;
 import java.util.Map;
@@ -15,8 +16,11 @@ public class ConfigManager {
     private int vpnPort;
     private String configFilePath;
 
+    
+
     public ConfigManager(String configFilePath) {
         this.configFilePath = configFilePath;
+        Logger.log("📂 Carregando configuração de: " + configFilePath);
         loadConfig();
     }
 
@@ -24,9 +28,19 @@ public class ConfigManager {
         properties = new Properties();
         printerMap = new HashMap<>();
 
-        try (FileInputStream input = new FileInputStream(configFilePath)) {
+        try (InputStream input = getClass().getClassLoader().getResourceAsStream("config.properties")) {
+            if (input == null) {
+                Logger.log("❌ Erro: Arquivo config.properties não encontrado no classpath!");
+                return;
+            }
+
             properties.load(input);
             vpnPort = Integer.parseInt(properties.getProperty("vpn.port", "9100"));
+
+            // 🔹 Debug: Exibir todas as propriedades carregadas
+            for (String key : properties.stringPropertyNames()) {
+                Logger.log("🔍 Config: " + key + " = " + properties.getProperty(key));
+            }
 
             int index = 1;
             while (properties.containsKey("printer." + index + ".vpn")) {
@@ -34,16 +48,52 @@ public class ConfigManager {
                 String localIp = properties.getProperty("printer." + index + ".local");
                 int localPort = Integer.parseInt(properties.getProperty("printer." + index + ".port", "9100"));
 
-                printerMap.put(vpnIp, new PrinterInfo(localIp, localPort));
+                printerMap.put(vpnIp, new PrinterInfo(localIp, localPort, properties));
                 index++;
             }
 
-            Logger.log("Configurações recarregadas!");
+            Logger.log("✅ Configurações carregadas com sucesso!");
 
         } catch (IOException e) {
-            Logger.log("Erro ao carregar configurações: " + e.getMessage());
+            Logger.log("❌ Erro ao carregar configurações: " + e.getMessage());
         }
     }
+
+    public String getAllPrinters() {
+        StringBuilder builder = new StringBuilder();
+        printerMap.forEach((vpnIp, info) -> builder.append(vpnIp)
+            .append(" -> ")
+            .append(info.getLocalIp())
+            .append(":")
+            .append(info.getLocalPort())
+            .append("\n"));
+        return builder.toString();
+    }
+
+    public void addPrinter(String vpnIp, String localIp, int localPort) {
+        printerMap.put(vpnIp, new PrinterInfo(localIp, localPort, properties));
+        Logger.log("Nova impressora adicionada: " + vpnIp + " -> " + localIp);
+    }
+
+    public boolean updatePrinter(String vpnIp, String localIp, int localPort) {
+        if (printerMap.containsKey(vpnIp)) {
+            printerMap.put(vpnIp, new PrinterInfo(localIp, localPort, properties));
+            Logger.log("Impressora atualizada: " + vpnIp + " -> " + localIp);
+            return true;
+        }
+        return false;
+    }
+
+    public boolean removePrinter(String vpnIp) {
+        if (printerMap.containsKey(vpnIp)) {
+            printerMap.remove(vpnIp);
+            Logger.log("Impressora removida: " + vpnIp);
+            return true;
+        }
+        return false;
+    }
+
+    
 
     public void reloadConfig() {
         Logger.log("Recarregando configurações...");
@@ -58,13 +108,25 @@ public class ConfigManager {
         return printerMap.get(vpnIp);
     }
 
+    public String getAdminToken() {
+        String token = properties.getProperty("admin.token");
+        if (token == null || token.trim().isEmpty()) {
+            Logger.log("Aviso: Token de administrador não encontrado no config.properties!");
+            return "DEFAULT_TOKEN"; // Valor padrão para evitar null
+        }
+        return token;
+    }
+
     public static class PrinterInfo {
         private String localIp;
         private int localPort;
 
-        public PrinterInfo(String localIp, int localPort) {
+        private Properties properties;
+
+        public PrinterInfo(String localIp, int localPort, Properties properties) {
             this.localIp = localIp;
             this.localPort = localPort;
+            this.properties = properties;
         }
 
         public String getLocalIp() {
@@ -74,5 +136,6 @@ public class ConfigManager {
         public int getLocalPort() {
             return localPort;
         }
+
     }
 }

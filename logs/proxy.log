@@ -1,0 +1,399 @@
+[2025-03-13 14:43:30] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 14:43:30] Servidor iniciado na porta 0
+[2025-03-13 14:43:31] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 14:43:38] Requisição recebida no /reload
+[2025-03-13 14:43:38] Token recebido: [123456]
+[2025-03-13 14:43:38] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:43:38] Token esperado: [DEFAULT_TOKEN]
+[2025-03-13 14:43:38] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:43:38] Acesso negado! Token inválido.
+[2025-03-13 14:43:41] Requisição recebida no /reload
+[2025-03-13 14:43:41] Token recebido: [123456]
+[2025-03-13 14:43:41] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:43:41] Token esperado: [DEFAULT_TOKEN]
+[2025-03-13 14:43:41] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:43:41] Acesso negado! Token inválido.
+[2025-03-13 14:46:01] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 14:46:01] Servidor iniciado na porta 0
+[2025-03-13 14:46:01] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 14:46:09] Requisição recebida no /reload
+[2025-03-13 14:46:09] Token recebido: [123456]
+[2025-03-13 14:46:09] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:46:09] Token esperado: [DEFAULT_TOKEN]
+[2025-03-13 14:46:09] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:46:09] Acesso negado! Token inválido.
+[2025-03-13 14:46:47] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 14:46:47] Servidor iniciado na porta 0
+[2025-03-13 14:46:47] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 14:46:50] Requisição recebida no /reload
+[2025-03-13 14:46:50] Token recebido: [123456]
+[2025-03-13 14:46:50] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:46:50] Token esperado: [DEFAULT_TOKEN]
+[2025-03-13 14:46:50] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:46:50] Acesso negado! Token inválido.
+[2025-03-13 14:51:02] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 14:51:02] Servidor iniciado na porta 0
+[2025-03-13 14:51:02] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 14:51:04] Requisição recebida no /reload
+[2025-03-13 14:51:04] Token recebido: [123456]
+[2025-03-13 14:51:04] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:51:04] Token esperado: [DEFAULT_TOKEN]
+[2025-03-13 14:51:04] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:51:04] Acesso negado! Token inválido.
+[2025-03-13 14:52:20] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 14:52:20] Servidor iniciado na porta 0
+[2025-03-13 14:52:20] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 14:52:23] Requisição recebida no /reload
+[2025-03-13 14:52:23] Token recebido: [123456]
+[2025-03-13 14:52:23] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:52:23] Token esperado: [DEFAULT_TOKEN]
+[2025-03-13 14:52:23] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:52:23] Acesso negado! Token inválido.
+[2025-03-13 14:54:14] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 14:54:14] Servidor iniciado na porta 0
+[2025-03-13 14:54:14] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 14:54:16] Requisição recebida no /reload
+[2025-03-13 14:54:16] Token recebido: [123456]
+[2025-03-13 14:54:16] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:54:16] Token esperado: [DEFAULT_TOKEN]
+[2025-03-13 14:54:16] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:54:16] Acesso negado! Token inválido.
+[2025-03-13 14:56:10] ? Carregando configuração de: resources/config.properties
+[2025-03-13 14:56:10] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 14:56:10] Servidor iniciado na porta 0
+[2025-03-13 14:56:10] Erro ao iniciar o servidor: Address already in use: bind
+[2025-03-13 14:56:20] ? Carregando configuração de: resources/config.properties
+[2025-03-13 14:56:20] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 14:56:20] Servidor iniciado na porta 0
+[2025-03-13 14:56:20] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 14:56:23] Requisição recebida no /reload
+[2025-03-13 14:56:23] Token recebido: [123456]
+[2025-03-13 14:56:23] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:56:23] Token esperado: [DEFAULT_TOKEN]
+[2025-03-13 14:56:23] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:56:23] Acesso negado! Token inválido.
+[2025-03-13 14:57:29] ? Carregando configuração de: resources/config.properties
+[2025-03-13 14:57:29] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 14:57:29] Servidor iniciado na porta 0
+[2025-03-13 14:57:29] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 14:57:31] Requisição recebida no /reload
+[2025-03-13 14:57:31] Token recebido: [123456]
+[2025-03-13 14:57:31] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:57:31] Token esperado: [DEFAULT_TOKEN]
+[2025-03-13 14:57:32] Aviso: Token de administrador não encontrado no config.properties!
+[2025-03-13 14:57:32] Acesso negado! Token inválido.
+[2025-03-13 15:32:16] ? Carregando configuração de: resources/config.properties
+[2025-03-13 15:32:16] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 15:32:16] Servidor iniciado na porta 0
+[2025-03-13 15:33:22] ? Carregando configuração de: resources/config.properties
+[2025-03-13 15:33:22] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 15:33:22] Servidor iniciado na porta 0
+[2025-03-13 15:33:52] ? Carregando configuração de: resources/config.properties
+[2025-03-13 15:33:52] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 15:33:52] Servidor iniciado na porta 0
+[2025-03-13 15:33:52] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 15:37:11] ? Carregando configuração de: resources/config.properties
+[2025-03-13 15:37:11] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 15:37:11] Servidor iniciado na porta 0
+[2025-03-13 15:37:11] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 15:37:40] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 15:37:40] Erro ao carregar configurações: .\resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 15:37:40] Servidor iniciado na porta 0
+[2025-03-13 15:37:40] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 15:53:52] ? Carregando configuração de: resources/config.properties
+[2025-03-13 15:53:53] Erro ao carregar configurações: resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 15:53:53] Servidor iniciado na porta 0
+[2025-03-13 15:53:53] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 15:54:29] ? Carregando configuração de: com/printervpnp/resources/config.properties
+[2025-03-13 15:54:29] Erro ao carregar configurações: com\printervpnp\resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 15:54:29] Servidor iniciado na porta 0
+[2025-03-13 15:54:30] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 15:55:42] ? Carregando configuração de: C:/Users/metam/Documents/Projetos/printervpnproxy/resources/config.properties
+[2025-03-13 15:55:42] Erro ao carregar configurações: C:\Users\metam\Documents\Projetos\printervpnproxy\resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 15:55:42] Servidor iniciado na porta 0
+[2025-03-13 15:55:42] Erro ao iniciar o servidor: Address already in use: bind
+[2025-03-13 15:55:50] ? Carregando configuração de: C:/Users/metam/Documents/Projetos/printervpnproxy/resources/config.properties
+[2025-03-13 15:55:50] Erro ao carregar configurações: C:\Users\metam\Documents\Projetos\printervpnproxy\resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 15:55:50] Servidor iniciado na porta 0
+[2025-03-13 15:55:51] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 16:01:28] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 16:01:28] Erro ao carregar configurações: .\resources\config.properties (O sistema não pode encontrar o caminho especificado)
+[2025-03-13 16:01:29] Servidor iniciado na porta 0
+[2025-03-13 16:01:29] Erro ao iniciar o servidor: Address already in use: bind
+[2025-03-13 16:04:43] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 16:04:43] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 16:04:43] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 16:04:43] ? Config: admin.token = 123456
+[2025-03-13 16:04:43] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 16:04:43] ? Config: printer.1.port = 9100
+[2025-03-13 16:04:43] ? Config: printer.2.port = 9100
+[2025-03-13 16:04:43] ? Config: vpn.port = 9100
+[2025-03-13 16:04:43] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 16:04:43] ? Configurações carregadas com sucesso!
+[2025-03-13 16:04:43] Servidor iniciado na porta 9100
+[2025-03-13 16:04:43] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 16:04:51] Requisição recebida no /reload
+[2025-03-13 16:04:51] Token recebido: [123456]
+[2025-03-13 16:04:51] Token esperado: [123456]
+[2025-03-13 16:04:51] Token válido! Recarregando configurações...
+[2025-03-13 16:04:51] Recarregando configurações...
+[2025-03-13 16:04:51] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 16:04:51] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 16:04:51] ? Config: admin.token = 123456
+[2025-03-13 16:04:51] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 16:04:51] ? Config: printer.1.port = 9100
+[2025-03-13 16:04:51] ? Config: printer.2.port = 9100
+[2025-03-13 16:04:51] ? Config: vpn.port = 9100
+[2025-03-13 16:04:51] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 16:04:51] ? Configurações carregadas com sucesso!
+[2025-03-13 16:30:57] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 16:30:57] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 16:30:57] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 16:30:57] ? Config: admin.token = 123456
+[2025-03-13 16:30:57] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 16:30:57] ? Config: printer.1.port = 9100
+[2025-03-13 16:30:57] ? Config: printer.2.port = 9100
+[2025-03-13 16:30:57] ? Config: vpn.port = 9100
+[2025-03-13 16:30:57] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 16:30:57] ? Configurações carregadas com sucesso!
+[2025-03-13 16:30:57] Servidor iniciado na porta 9100
+[2025-03-13 16:30:57] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 17:21:47] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 17:21:48] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 17:21:48] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 17:21:48] ? Config: admin.token = 123456
+[2025-03-13 17:21:48] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 17:21:48] ? Config: printer.1.port = 9100
+[2025-03-13 17:21:48] ? Config: printer.2.port = 9100
+[2025-03-13 17:21:48] ? Config: vpn.port = 9100
+[2025-03-13 17:21:48] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 17:21:48] ? Configurações carregadas com sucesso!
+[2025-03-13 17:21:48] Servidor iniciado na porta 9100
+[2025-03-13 17:21:48] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 17:26:44] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 17:26:44] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 17:26:44] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 17:26:44] ? Config: admin.token = 123456
+[2025-03-13 17:26:44] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 17:26:44] ? Config: printer.1.port = 9100
+[2025-03-13 17:26:44] ? Config: printer.2.port = 9100
+[2025-03-13 17:26:44] ? Config: vpn.port = 9100
+[2025-03-13 17:26:44] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 17:26:44] ? Configurações carregadas com sucesso!
+[2025-03-13 17:26:44] Servidor iniciado na porta 9100
+[2025-03-13 17:26:44] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 17:26:46] Corpo recebido: vpnIp=10.0.0.0&localIp=192.168.1.102&port=9100
+[2025-03-13 17:26:46] Parâmetros extraídos: {port=9100, vpnIp=10.0.0.0, localIp=192.168.1.102}
+[2025-03-13 17:26:46] Nova impressora adicionada: 10.0.0.0 -> 192.168.1.102
+[2025-03-13 17:33:26] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 17:33:26] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 17:33:26] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 17:33:26] ? Config: admin.token = 123456
+[2025-03-13 17:33:26] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 17:33:26] ? Config: printer.1.port = 9100
+[2025-03-13 17:33:26] ? Config: printer.2.port = 9100
+[2025-03-13 17:33:26] ? Config: vpn.port = 9100
+[2025-03-13 17:33:26] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 17:33:26] ? Configurações carregadas com sucesso!
+[2025-03-13 17:33:26] Servidor iniciado na porta 9100
+[2025-03-13 17:33:27] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 22:13:27] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 22:13:27] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 22:13:27] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 22:13:27] ? Config: admin.token = 123456
+[2025-03-13 22:13:27] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 22:13:27] ? Config: printer.1.port = 9100
+[2025-03-13 22:13:27] ? Config: printer.2.port = 9100
+[2025-03-13 22:13:27] ? Config: vpn.port = 9100
+[2025-03-13 22:13:27] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 22:13:27] ? Configurações carregadas com sucesso!
+[2025-03-13 22:13:27] Servidor iniciado na porta 9100
+[2025-03-13 22:13:27] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 22:16:46] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 22:16:46] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 22:16:46] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 22:16:46] ? Config: admin.token = 123456
+[2025-03-13 22:16:46] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 22:16:46] ? Config: printer.1.port = 9100
+[2025-03-13 22:16:46] ? Config: printer.2.port = 9100
+[2025-03-13 22:16:46] ? Config: vpn.port = 9100
+[2025-03-13 22:16:46] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 22:16:46] ? Configurações carregadas com sucesso!
+[2025-03-13 22:16:46] Servidor iniciado na porta 9100
+[2025-03-13 22:16:46] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 22:20:25] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 22:20:25] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 22:20:25] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 22:20:25] ? Config: admin.token = 123456
+[2025-03-13 22:20:25] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 22:20:25] ? Config: printer.1.port = 9100
+[2025-03-13 22:20:25] ? Config: printer.2.port = 9100
+[2025-03-13 22:20:25] ? Config: vpn.port = 9100
+[2025-03-13 22:20:25] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 22:20:25] ? Configurações carregadas com sucesso!
+[2025-03-13 22:20:25] Servidor iniciado na porta 9100
+[2025-03-13 22:20:25] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 22:24:58] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 22:24:58] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 22:24:58] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 22:24:58] ? Config: admin.token = 123456
+[2025-03-13 22:24:58] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 22:24:58] ? Config: printer.1.port = 9100
+[2025-03-13 22:24:58] ? Config: printer.2.port = 9100
+[2025-03-13 22:24:58] ? Config: vpn.port = 9100
+[2025-03-13 22:24:58] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 22:24:58] ? Configurações carregadas com sucesso!
+[2025-03-13 22:24:58] Servidor iniciado na porta 9100
+[2025-03-13 22:24:58] Servidor HTTP de configuração iniciado na porta 9000
+[2025-03-13 22:26:19] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 22:26:19] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 22:26:19] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 22:26:19] ? Config: admin.token = 123456
+[2025-03-13 22:26:19] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 22:26:19] ? Config: printer.1.port = 9100
+[2025-03-13 22:26:19] ? Config: printer.2.port = 9100
+[2025-03-13 22:26:19] ? Config: vpn.port = 9100
+[2025-03-13 22:26:19] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 22:26:19] ? Configurações carregadas com sucesso!
+[2025-03-13 22:26:19] Servidor iniciado na porta 9100
+[2025-03-13 22:26:19] Servidor HTTP de configuração iniciado na porta 910
+[2025-03-13 22:27:21] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 22:27:21] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 22:27:21] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 22:27:21] ? Config: admin.token = 123456
+[2025-03-13 22:27:21] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 22:27:21] ? Config: printer.1.port = 9100
+[2025-03-13 22:27:21] ? Config: printer.2.port = 9100
+[2025-03-13 22:27:21] ? Config: vpn.port = 9100
+[2025-03-13 22:27:21] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 22:27:21] ? Configurações carregadas com sucesso!
+[2025-03-13 22:27:21] Servidor iniciado na porta 9100
+[2025-03-13 22:27:21] Servidor HTTP de configuração iniciado na porta 910
+[2025-03-13 22:28:28] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 22:28:28] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 22:28:28] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 22:28:28] ? Config: admin.token = 123456
+[2025-03-13 22:28:28] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 22:28:28] ? Config: printer.1.port = 9100
+[2025-03-13 22:28:28] ? Config: printer.2.port = 9100
+[2025-03-13 22:28:28] ? Config: vpn.port = 9100
+[2025-03-13 22:28:28] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 22:28:28] ? Configurações carregadas com sucesso!
+[2025-03-13 22:28:28] Servidor iniciado na porta 9100
+[2025-03-13 22:28:28] Servidor HTTP de configuração iniciado na porta 9010
+[2025-03-13 22:36:58] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 22:36:58] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 22:36:58] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 22:36:58] ? Config: admin.token = 123456
+[2025-03-13 22:36:58] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 22:36:58] ? Config: printer.1.port = 9100
+[2025-03-13 22:36:58] ? Config: printer.2.port = 9100
+[2025-03-13 22:36:58] ? Config: vpn.port = 9100
+[2025-03-13 22:36:58] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 22:36:58] ? Configurações carregadas com sucesso!
+[2025-03-13 22:36:58] Servidor iniciado na porta 9100
+[2025-03-13 22:36:58] Servidor HTTP de configuração iniciado na porta 9010
+[2025-03-13 22:40:27] Corpo recebido: vpnIp=10.0.0.0&localIp=192.168.1.102&port=9100
+[2025-03-13 22:40:27] Parâmetros extraídos: {port=9100, vpnIp=10.0.0.0, localIp=192.168.1.102}
+[2025-03-13 22:40:27] Nova impressora adicionada: 10.0.0.0 -> 192.168.1.102
+[2025-03-13 22:40:55] Corpo recebido: vpnIp=10.0.0.0&localIp=192.168.1.102&port=9100
+[2025-03-13 22:40:55] Parâmetros extraídos: {port=9100, vpnIp=10.0.0.0, localIp=192.168.1.102}
+[2025-03-13 22:40:55] Nova impressora adicionada: 10.0.0.0 -> 192.168.1.102
+[2025-03-13 22:44:46] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 22:44:46] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 22:44:46] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 22:44:46] ? Config: admin.token = 123456
+[2025-03-13 22:44:46] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 22:44:46] ? Config: printer.1.port = 9100
+[2025-03-13 22:44:46] ? Config: printer.2.port = 9100
+[2025-03-13 22:44:46] ? Config: vpn.port = 9100
+[2025-03-13 22:44:46] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 22:44:46] ? Configurações carregadas com sucesso!
+[2025-03-13 22:44:46] Servidor iniciado na porta 9100
+[2025-03-13 22:44:46] Servidor HTTP de configuração iniciado na porta 9010
+[2025-03-13 22:48:03] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 22:48:03] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 22:48:03] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 22:48:03] ? Config: admin.token = 123456
+[2025-03-13 22:48:03] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 22:48:03] ? Config: printer.1.port = 9100
+[2025-03-13 22:48:03] ? Config: printer.2.port = 9100
+[2025-03-13 22:48:03] ? Config: vpn.port = 9100
+[2025-03-13 22:48:03] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 22:48:03] ? Configurações carregadas com sucesso!
+[2025-03-13 22:48:03] Servidor iniciado na porta 9100
+[2025-03-13 22:48:03] Servidor HTTP de configuração iniciado na porta 9010
+[2025-03-13 22:52:27] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 22:52:27] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 22:52:27] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 22:52:27] ? Config: admin.token = 123456
+[2025-03-13 22:52:27] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 22:52:27] ? Config: printer.1.port = 9100
+[2025-03-13 22:52:27] ? Config: printer.2.port = 9100
+[2025-03-13 22:52:27] ? Config: vpn.port = 9100
+[2025-03-13 22:52:27] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 22:52:27] ? Configurações carregadas com sucesso!
+[2025-03-13 22:52:27] Servidor iniciado na porta 9100
+[2025-03-13 22:52:27] Servidor HTTP de configuração iniciado na porta 9010
+[2025-03-13 22:55:28] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 22:55:28] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 22:55:28] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 22:55:28] ? Config: admin.token = 123456
+[2025-03-13 22:55:28] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 22:55:28] ? Config: printer.1.port = 9100
+[2025-03-13 22:55:28] ? Config: printer.2.port = 9100
+[2025-03-13 22:55:28] ? Config: vpn.port = 9100
+[2025-03-13 22:55:28] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 22:55:28] ? Configurações carregadas com sucesso!
+[2025-03-13 22:55:28] Servidor iniciado na porta 9100
+[2025-03-13 22:55:28] Servidor HTTP de configuração iniciado na porta 9010
+[2025-03-13 22:59:31] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 22:59:31] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 22:59:31] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 22:59:31] ? Config: admin.token = 123456
+[2025-03-13 22:59:31] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 22:59:31] ? Config: printer.1.port = 9100
+[2025-03-13 22:59:31] ? Config: printer.2.port = 9100
+[2025-03-13 22:59:31] ? Config: vpn.port = 9100
+[2025-03-13 22:59:31] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 22:59:31] ? Configurações carregadas com sucesso!
+[2025-03-13 22:59:31] Servidor iniciado na porta 9100
+[2025-03-13 22:59:31] Servidor HTTP de configuração iniciado na porta 9010
+[2025-03-13 23:00:58] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 23:00:58] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 23:00:58] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 23:00:58] ? Config: admin.token = 123456
+[2025-03-13 23:00:58] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 23:00:58] ? Config: printer.1.port = 9100
+[2025-03-13 23:00:58] ? Config: printer.2.port = 9100
+[2025-03-13 23:00:58] ? Config: vpn.port = 9100
+[2025-03-13 23:00:58] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 23:00:58] ? Configurações carregadas com sucesso!
+[2025-03-13 23:00:58] Servidor iniciado na porta 9100
+[2025-03-13 23:00:58] Servidor HTTP de configuração iniciado na porta 9010
+[2025-03-13 23:01:09] Corpo recebido: {"vpnIp":"1","localIp":"1","port":1}
+[2025-03-13 23:01:09] Parâmetros extraídos: {}
+[2025-03-13 23:01:18] Corpo recebido: {"vpnIp":"1","localIp":"1","port":1}
+[2025-03-13 23:01:18] Parâmetros extraídos: {}
+[2025-03-13 23:01:58] Corpo recebido: {"vpnIp":"10.0.0.1","localIp":"192.168.15.1","port":9001}
+[2025-03-13 23:01:58] Parâmetros extraídos: {}
+[2025-03-13 23:02:33] Corpo recebido: {"vpnIp":"1","localIp":"1","port":1}
+[2025-03-13 23:02:33] Parâmetros extraídos: {}
+[2025-03-13 23:04:25] Corpo recebido: {"vpnIp":"1","localIp":"1","port":1}
+[2025-03-13 23:04:25] Parâmetros extraídos: {}
+[2025-03-13 23:04:32] Corpo recebido: {"vpnIp":"1","localIp":"1","port":1}
+[2025-03-13 23:04:32] Parâmetros extraídos: {}
+[2025-03-13 23:04:47] Corpo recebido: {"vpnIp":"1","localIp":"1","port":1}
+[2025-03-13 23:04:47] Parâmetros extraídos: {}
+[2025-03-13 23:12:48] ? Carregando configuração de: ./resources/config.properties
+[2025-03-13 23:12:48] ? Config: printer.2.local = 192.168.1.101
+[2025-03-13 23:12:48] ? Config: printer.1.vpn = 10.0.0.2
+[2025-03-13 23:12:48] ? Config: admin.token = 123456
+[2025-03-13 23:12:48] ? Config: printer.2.vpn = 10.0.0.3
+[2025-03-13 23:12:48] ? Config: printer.1.port = 9100
+[2025-03-13 23:12:48] ? Config: printer.2.port = 9100
+[2025-03-13 23:12:48] ? Config: vpn.port = 9100
+[2025-03-13 23:12:48] ? Config: printer.1.local = 192.168.1.100
+[2025-03-13 23:12:48] ? Configurações carregadas com sucesso!
+[2025-03-13 23:12:48] Servidor iniciado na porta 9100
+[2025-03-13 23:12:48] Servidor HTTP de configuração iniciado na porta 9010

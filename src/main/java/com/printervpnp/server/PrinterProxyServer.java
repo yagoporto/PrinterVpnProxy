@@ -21,8 +21,8 @@ public class PrinterProxyServer {
             serverSocket = new ServerSocket(configManager.getVpnPort());
             Logger.log("Servidor iniciado na porta " + configManager.getVpnPort());
 
-            // Inicia o servidor HTTP na porta 8080
-            httpServer = new HttpConfigServer(8080, configManager);
+            // Inicia o servidor HTTP na porta 9010
+            httpServer = new HttpConfigServer(9010, configManager);
         } catch (IOException e) {
             Logger.log("Erro ao iniciar o servidor: " + e.getMessage());
         }
